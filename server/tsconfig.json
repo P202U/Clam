@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist", // Ensure JavaScript files go into a dist folder
+    "rootDir": "./src", // Ensure TypeScript files are inside a src folder
+    "sourceMap": true, // Optional: Enable source maps for easier debugging
+    "declaration": true, // Optional: Generate .d.ts files for type declarations
+    "resolveJsonModule": true, // Optional: Allow importing JSON files
+    "noImplicitAny": false, // Optional: Allow any in some places if needed
+    "moduleResolution": "node", // Use Node.js module resolution strategy
+    "skipDefaultLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts" // Specify the TypeScript files to include
+  ],
+  "exclude": [
+    "node_modules" // Exclude the node_modules directory
+  ]
+}
